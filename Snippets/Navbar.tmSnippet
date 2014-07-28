@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;nav role="navigation" class="navbar navbar-default"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#${1:navbar-collapse}"&gt;
+        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a href="#" class="navbar-brand"&gt;${2:Your Brand}&lt;/a&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="collapse navbar-collapse" id="$1"&gt;
+      &lt;ul class="nav navbar-nav"&gt;
+        ${3:&lt;li&gt;&lt;a href="${4:#}"&gt;${5:Link 1}&lt;/a&gt;&lt;/li&gt;}
+        ${6:&lt;li&gt;&lt;a href="${7:#}"&gt;${8:Link 2}&lt;/a&gt;&lt;/li&gt;}
+        ${9:&lt;li class="dropdown"&gt;
+          &lt;a data-toggle="dropdown" href="#" class="dropdown-toggle"&gt;${10:Logged in as USER}&lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul role="menu" class="dropdown-menu"&gt;
+            ${11:&lt;li&gt;&lt;a href="${12:#}"&gt;${13:Edit My Profile}&lt;/a&gt;&lt;/li&gt;}
+            ${14:&lt;li&gt;&lt;a href="${15:#}"&gt;${16:Log Out}&lt;/a&gt;&lt;/li&gt;}
+          &lt;/ul&gt;
+        &lt;/li&gt;}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;$0</string>
+	<key>name</key>
+	<string>Navbar</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>tbnavbar</string>
+	<key>uuid</key>
+	<string>C02C140F-F919-4F79-9F00-B1C540C4A1AC</string>
+</dict>
+</plist>
