@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="alert alert-${1:success|info|danger|warning}${2: alert-dismissible}" role="alert"&gt;
+  ${3:&lt;button type="button" class="close" data-dismiss="alert"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+}  ${4:Alert message}
+&lt;/div&gt;$0</string>
+	<key>name</key>
+	<string>Alert</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>tbalert</string>
+	<key>uuid</key>
+	<string>7EDFE23B-6B7D-4314-8F3B-2BF4DA797861</string>
+</dict>
+</plist>
